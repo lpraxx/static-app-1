@@ -1,3 +1,11 @@
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+body, .nav-link, p, li, button, input, textarea, .btn {
+    font-family: 'Jua', sans-serif;
+}
+
 .navbar {
 	background-color: #b3ccff !important;
 }
@@ -6,6 +14,10 @@
 	font-size: 20px;
 	font-weight: bold;
 	color: black !important;
+}
+
+.nav-link:hover {
+    color: #9999ff !important;
 }
 
 .navbar-brand img {
@@ -26,24 +38,46 @@
 	font-weight: bold;
 }
 
-.carousel{
-	justify-content: ;
+.carousel-control-prev,
+.carousel-control-next {
+    padding: 0px;
+    border: 0px;
+}
+
+.card {
+    background-color: #e6f2ff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-title {
-    font-size: 1.5rem;
-    color: #f47c7c;
+    font-weight: 700;
+    color: #00264d;
 }
 
 .card-text {
-    color: #333;
+    font-size: 0.9rem;
+    color: #80aaff;
 }
 
-.footer {
-    background-color: #1e1e1e;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
-.footer p {
+footer {
+    background-color: #b3ccff;
+    color: black;
+    padding: 10px 0;
+}
+
+footer p {
     margin: 0;
     font-size: 0.9rem;
 }
