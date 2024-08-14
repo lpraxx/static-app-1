@@ -1,0 +1,49 @@
+.navbar {
+	background-color: #b3ccff !important;
+}
+
+.nav-link {
+	font-size: 20px;
+	font-weight: bold;
+	color: black !important;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.hero-section {
+	background-image: url('images/seventeen-bg.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    color: black;
+    padding: 130px 0;
+    position: relative;
+    background-position: center;
+}
+
+.display-4{
+	font-weight: bold;
+}
+
+.carousel{
+	justify-content: ;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #f47c7c;
+}
+
+.card-text {
+    color: #333;
+}
+
+.footer {
+    background-color: #1e1e1e;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
